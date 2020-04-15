@@ -1,6 +1,6 @@
 How to run 2048 - Star Wars Edition
 
-(0. You'll need JDK)
+(0. You'll need Java Development Kit (JDK) 9 or above)
 
 1.Check if you have apache-Ant installed. If you have, skip this step.
 If you haven't download it from: https://ant.apache.org/bindownload.cgi
