@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="JavaDoc Simple Graph">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/simple-graphics/JavaDoc Simple Graph/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/simple-graphics/JavaDoc Simple Graph/type-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/simple-graphics/JavaDoc Simple Graph/package-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

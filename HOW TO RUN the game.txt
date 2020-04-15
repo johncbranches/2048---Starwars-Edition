@@ -1,0 +1,21 @@
+How to run 2048 - Star Wars Edition
+
+(0. You'll need JDK)
+
+1.Check if you have apache-Ant installed. If you have, skip this step.
+If you haven't download it from: https://ant.apache.org/bindownload.cgi
+(In windows)
+After unziping the file, copy its path.
+Create an environment variable called ANT_HOME and assign it to the copied path.
+Go to the environment variable PATH, click edit and add a new entry:
+[path you copied for ANT_HOME]\bin
+Click Ok and Ok again.
+(Restart your terminal/console)
+
+2.In your terminal console head to the folder where you've cloned this game and go to
+...\2048---Starwars-Edition\Project-2048\simple-graphics
+There run the command:
+ant jarfile
+
+3.To run the game run the command
+java -jar build/simple-graphics.jar
