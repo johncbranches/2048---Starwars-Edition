@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c161540e-a6e9-40f1-8b01-1629960e19df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HOW TO RUN the game.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HOW TO RUN the game.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-graphics/src/org/academiadecodigo/simplegraphics/game2048/KeyBinds.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-graphics/src/org/academiadecodigo/simplegraphics/game2048/KeyBinds.java" afterDir="false" />
     </list>
@@ -61,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586104495449</updated>
       <workItem from="1586104502676" duration="391000" />
-      <workItem from="1587375615406" duration="1371000" />
+      <workItem from="1587375615406" duration="2129000" />
     </task>
     <servers />
   </component>
