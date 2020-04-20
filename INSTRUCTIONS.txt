@@ -1,0 +1,12 @@
+INSTRUCTIONS
+
+To skip the starting animation press "s".
+To move the squares use the arrow keys.
+To mute press the "m" key.
+To exit press the "e" key.
+
+Game logic:
+Each square that "bumps" into a square with the same number adds to it.
+(Ex: square 4 bumps into square 4. Both become a new square 8.)
+Goal: Reach square 2048.
+Game over: When there are no possible moves, the game ends.

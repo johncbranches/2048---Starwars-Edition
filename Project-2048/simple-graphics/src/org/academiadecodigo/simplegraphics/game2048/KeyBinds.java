@@ -3,10 +3,14 @@ package org.academiadecodigo.simplegraphics.game2048;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardEvent;
 import org.academiadecodigo.simplegraphics.keyboard.KeyboardHandler;
 
+import javax.swing.*;
+import java.awt.*;
+
 public class KeyBinds implements KeyboardHandler {
 
     private Game newGame;
     private boolean mute = false;
+    private boolean isExitDefault = false;
 
     public KeyBinds(Game newGame) {
         this.newGame = newGame;
@@ -19,6 +23,14 @@ public class KeyBinds implements KeyboardHandler {
 
     @Override
     public void keyPressed(KeyboardEvent e) {
+        if (!isExitDefault) {
+            try {
+                JFrame frame = (JFrame) Window.getWindows()[0];
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                isExitDefault = true;
+            } catch (Exception ex) {
+            }
+        }
         if (newGame.getStarted()) {
 
             if (KeyboardEvent.KEY_LEFT == e.getKey()) {
