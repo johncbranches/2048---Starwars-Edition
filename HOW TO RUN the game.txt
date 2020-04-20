@@ -12,10 +12,15 @@ Go to the environment variable PATH, click edit and add a new entry:
 Click Ok and Ok again.
 (Restart your terminal/console)
 
-2.In your terminal console head to the folder where you've cloned this game and go to
-...\2048---Starwars-Edition\Project-2048\simple-graphics
+2.In your terminal head to the folder where you've cloned this game and enter the
+project file location:
+cd 2048---Starwars-Edition
+cd Project-2048
+cd simple-graphics
+
 There run the command:
 ant jarfile
 
-3.To run the game run the command
-java -jar build/simple-graphics.jar
+3.To run the game, run the commands:
+cd build
+java -jar simple-graphics.jar
